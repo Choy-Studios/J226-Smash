@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cb0cm2y63f727"]
+
+[ext_resource type="Script" uid="uid://bagy23yiw84mo" path="res://tests/test_fixed_math.gd" id="1_wbuys"]
+
+[node name="TestFixedMath" type="Node" unique_id=1448689093]
+script = ExtResource("1_wbuys")

@@ -13,12 +13,14 @@ static func from_px(px: int) -> int:
 # In GDScript, int / int is integer division and truncates toward zero.
 # That is deterministic. The annotation just silences the editor warning.
 # Multiply BEFORE dividing, or you lose precision.
-@warning_ignore("integer_division")
+
 static func mul(a: int, b: int) -> int:
+	@warning_ignore("integer_division")	
 	return (a * b) / SCALE
 
-@warning_ignore("integer_division")
+
 static func div(a: int, b: int) -> int:
+	@warning_ignore("integer_division")	
 	return (a * SCALE) / b
 
 # --- Squared distance (compare squared values instead of using sqrt) ---

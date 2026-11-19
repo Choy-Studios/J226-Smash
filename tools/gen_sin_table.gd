@@ -1,6 +1,7 @@
 @tool
 extends EditorScript
 
+# This generates a sin table based on the scale factor.
 func _run() -> void:
 	var out: PackedStringArray = []
 	for d in 360:
