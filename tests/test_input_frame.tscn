@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dqxgll8ruagdr"]
+
+[ext_resource type="Script" uid="uid://cpgr37qtwt7r5" path="res://tests/test_input_frame.gd" id="1_gexfw"]
+
+[node name="TestInputFrame" type="Node" unique_id=1592659792]
+script = ExtResource("1_gexfw")
