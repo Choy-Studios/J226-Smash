@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bp6txr72pam6q"]
+
+[ext_resource type="Script" uid="uid://b8bf6qirbw8ar" path="res://tests/test_input_mapper.gd" id="1_oq8vn"]
+
+[node name="TestInputMapper" type="Node" unique_id=1499424440]
+script = ExtResource("1_oq8vn")
